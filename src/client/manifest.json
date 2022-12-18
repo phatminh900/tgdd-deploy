@@ -7,22 +7,6 @@
     "file": "assets/404.057f1a56.png",
     "src": "src/assets/imgs/404.png"
   },
-  "src/assets/imgs/laptops-slides/slider-1.png": {
-    "file": "assets/slider-1.b8870523.png",
-    "src": "src/assets/imgs/laptops-slides/slider-1.png"
-  },
-  "src/assets/imgs/laptops-slides/slider-2.png": {
-    "file": "assets/slider-2.c2ae3cd4.png",
-    "src": "src/assets/imgs/laptops-slides/slider-2.png"
-  },
-  "src/assets/imgs/laptops-slides/slider-3.png": {
-    "file": "assets/slider-3.deffe56b.png",
-    "src": "src/assets/imgs/laptops-slides/slider-3.png"
-  },
-  "src/assets/imgs/laptops-slides/slider-4.png": {
-    "file": "assets/slider-4.e912870a.png",
-    "src": "src/assets/imgs/laptops-slides/slider-4.png"
-  },
   "src/assets/imgs/phone-slides/slider1.png": {
     "file": "assets/slider1.31308ed1.png",
     "src": "src/assets/imgs/phone-slides/slider1.png"
@@ -46,6 +30,22 @@
   "src/assets/imgs/phone-slides/slider6-l.png": {
     "file": "assets/slider6-l.fa7eba69.png",
     "src": "src/assets/imgs/phone-slides/slider6-l.png"
+  },
+  "src/assets/imgs/laptops-slides/slider-1.png": {
+    "file": "assets/slider-1.b8870523.png",
+    "src": "src/assets/imgs/laptops-slides/slider-1.png"
+  },
+  "src/assets/imgs/laptops-slides/slider-2.png": {
+    "file": "assets/slider-2.c2ae3cd4.png",
+    "src": "src/assets/imgs/laptops-slides/slider-2.png"
+  },
+  "src/assets/imgs/laptops-slides/slider-3.png": {
+    "file": "assets/slider-3.deffe56b.png",
+    "src": "src/assets/imgs/laptops-slides/slider-3.png"
+  },
+  "src/assets/imgs/laptops-slides/slider-4.png": {
+    "file": "assets/slider-4.e912870a.png",
+    "src": "src/assets/imgs/laptops-slides/slider-4.png"
   },
   "src/assets/imgs/iconnew.png": {
     "file": "assets/iconnew.bf02573a.png",
@@ -157,24 +157,24 @@
     "file": "assets/laptops.container.314b94c8.css",
     "src": "src/pages/public/laptops/laptops.container.css"
   },
-  "src/pages/public/phones/phones.container.css": {
-    "file": "assets/phones.container.dde83ef0.css",
-    "src": "src/pages/public/phones/phones.container.css"
+  "product-filter.css": {
+    "file": "assets/product-filter.348210ee.css",
+    "src": "product-filter.css"
   },
   "src/pages/private/order-history/order-history.container.css": {
     "file": "assets/order-history.container.757850ec.css",
     "src": "src/pages/private/order-history/order-history.container.css"
   },
-  "product-filter.css": {
-    "file": "assets/product-filter.348210ee.css",
-    "src": "product-filter.css"
-  },
-  "src/index.css": {
-    "file": "assets/index.ce615108.css",
-    "src": "src/index.css"
+  "src/pages/public/phones/phones.container.css": {
+    "file": "assets/phones.container.dde83ef0.css",
+    "src": "src/pages/public/phones/phones.container.css"
   },
   "src/pages/public/cart/cart.container.css": {
     "file": "assets/cart.container.f19adb74.css",
     "src": "src/pages/public/cart/cart.container.css"
+  },
+  "src/index.css": {
+    "file": "assets/index.ce615108.css",
+    "src": "src/index.css"
   }
 }
