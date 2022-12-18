@@ -50,7 +50,7 @@ export const forgotPassword = catchAsync(async (req, res, next) => {
     //   "host"
     // )}/api/v1/users/resetPassword/${resetToken}`;
     // TODO: RESET PASSWORD
-    const resetLink = `${process.env.URL}/resetPassword/${resetToken}`;
+    const resetLink = `${process.env.URL}resetPassword/${resetToken}`;
     await new Email(user, resetLink).sendPasswordReset();
     res.status(200).json({
       status: "success",
