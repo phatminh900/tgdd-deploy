@@ -33,14 +33,14 @@ app.use(
 );
 app.use(cors());
 // limit requests from 1 IPT
-const limiter = rateLimit({
-  windowMs: 60 * 60 * 1000,
-  max: 100,
-  message: "Too many requests from this IP. try again in 1 hour",
-  standardHeaders: true,
-  legacyHeaders: false, // Disable the `X-RateLimit-*` headers
-});
-app.use("/api", limiter);
+// const limiter = rateLimit({
+//   windowMs: 60 * 60 * 1000,
+//   max: 100,
+//   message: "Too many requests from this IP. try again in 1 hour",
+//   standardHeaders: true,
+//   legacyHeaders: false, // Disable the `X-RateLimit-*` headers
+// });
+// app.use("/api", limiter);
 // // body-parse,reading from body to req.body
 app.use(express.json());
 app.use(express.urlencoded({ extended: true, limit: "10kb" }));
