@@ -1,0 +1,1 @@
+import{D as s,j as o,a as r}from"./index.2c938929.js";const a={},n=()=>{const e=s();return console.error(e),o("div",{className:a["error-page"],children:[r("h1",{children:"Oops!"}),r("p",{children:"Sorry, an unexpected error has occurred."}),r("p",{children:e&&r("i",{children:e.message})})]})};export{n as default};
