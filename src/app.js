@@ -49,7 +49,7 @@ app.use(cookieParser());
 app.use(mongoSanitize());
 
 app.use(express.static(path.join(__dirname, "../", "public")));
-app.use(express.static(path.join(__dirname, "./client")));
+app.use(express.static(path.join(__dirname, "./build")));
 // // Data sanitization against XXS
 const html = '<script>alert("xss");</script>';
 // app.use(xss(html));
@@ -69,7 +69,7 @@ app.use("/api/v1/reviews", ReviewRouter);
 app.get("*", (req, res, next) => {
   if (req.originalUrl.startsWith("/api/v1"))
     return next(new NotFoundError("Not found"));
-  res.sendFile(path.join(__dirname, "./client", "index.html"));
+  res.sendFile(path.join(__dirname, "./build", "index.html"));
 });
 
 // reviews
