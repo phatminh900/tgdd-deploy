@@ -76,7 +76,10 @@ export const getUserBookings = catchAsync(async (req, res, next) => {
         currentColor: booking.colors[i],
       })),
       _id: booking._id,
-      total: booking.prices.reduce((total, price) => total + price, 0),
+      total: booking.prices.reduce(
+        (total, price, i) => total + price * booking.quantities[i],
+        0
+      ),
       userAddress: booking.userAddress,
       createdAt: booking.createdAt,
     };
@@ -116,7 +119,10 @@ export const getUserBooking = catchAsync(async (req, res, next) => {
       category: product.category,
     })),
     _id: booking._id,
-    total: booking.prices.reduce((total, price) => total + price, 0),
+    total: booking.prices.reduce(
+      (total, price, i) => total + price * booking.quantities[i],
+      0
+    ),
     userAddress: booking.userAddress,
     createdAt: booking.createdAt,
   };
